@@ -1,0 +1,8 @@
+pyserial
+pandas
+numpy
+matplotlib
+plotly
+jupyter
+openpyxl
+ipykernel

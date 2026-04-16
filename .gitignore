@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+feeder-research/.venv/
+
+# Jupyter runtime
+*.nbconvert.ipynb
+
+# PlatformIO
+.pio/
+.platformio/
+.platformio-home/
+feeder-platformio/.pio/
+feeder-platformio/.platformio-home/
+
+# Local editor / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Secrets
+feeder-platformio/include/secrets.h
+*.env
+
+# Experiment outputs
+feeder-research/data/raw/*.csv
+feeder-research/data/raw/*.jsonl
+feeder-research/data/raw/*.xlsx
+feeder-research/data/raw/*_meta.json
+
+# Local references not required to run the project
+paper/
+
+# Misc
+*.log
